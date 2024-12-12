@@ -1,4 +1,3 @@
-
 data "aws_ami" "app_ami" {
   most_recent = true
 
@@ -29,7 +28,6 @@ module "blog_vpc" {
     Environment = "dev"
   }
 }
-
 
 
 module "blog_autoscaling" {
